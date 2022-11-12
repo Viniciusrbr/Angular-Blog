@@ -19,12 +19,13 @@
 .big-card-description{
     margin-top: 20px;
     text-align: justify;
-    
-    
 }
 
 .big-card-description > p > a{
     background-color: #444;
+    font-size: 18px;
+    padding: 2px 34px 0;
+    box-shadow: 0 2px 5px #00000042;
 }
 
 .big-card-photo > img{
