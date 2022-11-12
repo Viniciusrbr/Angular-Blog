@@ -1,5 +1,8 @@
 # AngularBlog
 
+Projeto inicial de um blog criado durante a Formação Angular Developer da <a href="https://www.dio.me/">Dio</a>
+<hr/>
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 
 ## Development server
