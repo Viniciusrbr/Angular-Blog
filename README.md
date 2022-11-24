@@ -1,6 +1,9 @@
 # AngularBlog
 
-Projeto inicial de um blog criado durante a Formação Angular Developer da <a href="https://www.dio.me/">Dio</a>
+Projeto inicial de uma blog criado durante a Formação Angular Developer da <a href="https://www.dio.me/">Dio</a> 
+
+foi usado como modelo/inspiração um desing do <a href="https://dribbble.com/shots/18089191-Blog-Layout">Tribble</a> 
+![Layout de Modelo](https://cdn.dribbble.com/userupload/2623158/file/original-ff44a9f2238eef9a1e0b5e21d27e7f94.png?compress=1&resize=1024x768)
 <hr/>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
