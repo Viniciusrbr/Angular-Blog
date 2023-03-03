@@ -1,17 +1,26 @@
-<div class="container-content">
-    <div class="content-cover">
-        <img src="{{photoCover}}" alt="">
+<div class="container">
+  <div class="content_btn-home">
+    <a [routerLink]="['']"><span><< Back to Home</span></a>
+  </div>
+
+  <div class="container_content">
+    <div class="content_cover">
+      <img src="{{ photoCover }}" alt="photo" />
     </div>
 
-    <div class="content-tittle">
-        <h1>{{contentTitle}}</h1>
-        <hr>
+    <div class="container_text">
+      <div class="content_date">
+        <p>{{ date }}</p>
+      </div>
+      <div class="content_title">
+        <h1>{{ cardTitle }}</h1>
+        <hr />
+      </div>
+
+      <div class="content_description">
+        <p>{{ cardDescription }}</p>
+      </div>
     </div>
 
-    <a [routerLink]="['']">◀️VOLTAR</a>
-
-    <div class="content-description">
-        <p>{{contentDescription}}</p>
-    </div>
+  </div>
 </div>
-

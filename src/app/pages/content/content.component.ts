@@ -9,17 +9,17 @@ import { DataFake } from 'src/app/data/dataFake';
 })
 export class ContentComponent implements OnInit {
 
-  photoCover:string = ""
-  contentTitle:string = ""
-  contentDescription:string = ""
+  photoCover:string = "";
+  date:string = "";
+  cardTitle:string = "";
+  cardDescription:string = "";
 
-  private id: string | null = "0"
-  constructor(
-    private route: ActivatedRoute
-  ) { }
+  private id:string | null = "0"
+
+  constructor(private route:ActivatedRoute) {}
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe(value =>
+    this.route.paramMap.subscribe( value =>
       this.id = value.get("id")
     )
 
@@ -27,11 +27,12 @@ export class ContentComponent implements OnInit {
   }
 
   setValuesToComponent(id:string | null){
-    const result = DataFake.filter(article => article.id === id)[0]
+    const result = DataFake.filter(article => article.id == id)[0]
 
-    this.contentTitle = result.title
-    this.contentDescription = result.description
     this.photoCover = result.photoCover
+    this.date = result.date
+    this.cardTitle = result.title
+    this.cardDescription = result.description
   }
 
 }

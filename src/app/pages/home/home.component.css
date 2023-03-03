@@ -1,8 +1,11 @@
-.articles-container{
-    margin-top: 30px;
+.articles-container {
+  margin-top: 1.875rem;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
+.articles-main {
+  margin-right: 2rem;
+}
